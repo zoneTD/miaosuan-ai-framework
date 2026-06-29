@@ -1,223 +1,222 @@
-# 庙算 AI 决策框架
+# Temple Calculation AI Decision Framework
 
-> 将《孙子兵法》「庙算」思想映射为现代 AI 人机协作决策架构。
+> Mapping Sun Tzu's "Temple Calculation" methodology into a modern human-AI collaborative decision-making architecture.
 
----
-
-## 一、核心映射
-
-| 孙子兵法原意 | AI 协作映射 | 说明 |
-|-------------|------------|------|
-| **主**（国君） | 人类用户 | 提出问题，最终决策，承担后果 |
-| **道**（上下同欲） | 动态对齐 | AI 通过角色扮演与用户形成临时对齐 |
-| **将**（将军） | AI 角色 | 负责庙算推演，同时承载「道」和「将」 |
-| **庙算** | 多维度评估讨论 | 不是算命，是可被否定的讨论结构 |
-| **五事七计** | 七维度评估算法 | 逐维分析，产出讨论报告而非判决 |
+[中文版](README_CN.md) | [MIT License](LICENSE)
 
 ---
 
-## 二、核心洞察
+## Core Mapping
 
-### 1. 「道将合一」
-
-在 AI 场景中，道和将不再是分离的——通过角色扮演合二为一。选对角色 = 同时完成对齐和赋能。
-
-AI 的核心竞争力不是推理能力，而是**角色切换的速度和精度**。
-
-### 2. 道非前置审查，而是贯穿修正
-
-道不是在入口处的一次性检查，而是在全流程每个分叉路口持续追问「这样做对吗」。
-
-> **「此兵家之胜，不可先传也。」** —— 孙武承认没有先验框架能穷尽所有变量。庙算是持续更新的判断过程。
-
-### 3. 庙算是讨论结构，不是判决
-
-五事七计强制你看所有该看的维度，但不能替你下结论。产出是可被否定的讨论报告。
-
-> **「吾以此观之，胜负见矣。」** —— 关键词是「观」（观察、审视），不是「定」或「决」。
-
-### 4. 最终决策权在人类
-
-AI 负责推演，人类负责决策。
+| Original (Art of War) | AI Collaboration Mapping | Description |
+|------------------------|--------------------------|-------------|
+| **Sovereign** (commander-in-chief) | Human User | Defines the problem, makes final decisions, bears consequences |
+| **Dao** (moral alignment) | Dynamic Alignment | AI aligns with the user's goals through role-playing, re-established per interaction |
+| **General** (commander) | AI Role | Conducts temple calculation, simultaneously embodies both Dao and General |
+| **Temple Calculation** | Multi-dimensional Evaluation | A discussable evaluation structure, not fortune-telling — outputs are contestable |
+| **Five Matters & Seven Calculations** | 7-Dimension Evaluation Algorithm | Systematic dimension-by-dimension analysis producing discussion reports, not verdicts |
 
 ---
 
-## 三、四层架构
+## Core Insights
+
+### 1. "Dao-General Unity"
+
+In the human-AI context, Dao and General are no longer separate — they merge through role-playing. **Choosing the right role = completing alignment and empowerment simultaneously.**
+
+An AI's core competency is not reasoning power, but **the speed and precision of role-switching**.
+
+### 2. Dao is Not a Pre-filter, But a Continuous Thread
+
+Dao is not a one-time gate at the entrance — it's a persistent voice at every fork in the decision tree asking, *"Is this the right thing to do?"*
+
+> *"The victories won by a military genius are not calculable in advance."* — Sun Tzu acknowledged that no a priori framework exhausts all variables. Temple Calculation is a continuously updating process of judgment.
+
+### 3. Temple Calculation is a Discussion Structure, Not a Verdict
+
+The Seven Calculations force systematic examination of all relevant dimensions, but cannot substitute for human judgment. The output is a **contestable discussion report**.
+
+> *"Thus I can observe these and see who will win."* — The key word is **"observe"** (观), not "decree" or "determine."
+
+### 4. Humans Hold Final Decision Authority
+
+AI is responsible for reasoning; humans are responsible for deciding.
+
+---
+
+## The Four-Layer Architecture
 
 ```
 ┌──────────────────────────────────────────────────────┐
-│                 人机协作庙算框架                         │
+│         Human-AI Collaborative Temple Calculation      │
 ├──────────────────────────────────────────────────────┤
 │                                                       │
-│  第一层：出厂之道（静态底线）                            │
-│  ├─ 违法/明显恶意 → 拦截                               │
-│  ├─ 对应：RLHF、内容安全过滤器、Constitutional AI       │
-│  └─ 角色：底线守卫者                                   │
+│  Layer 1: Factory Dao (Static Baseline)                │
+│  ├─ Illegal / obviously malicious → Block              │
+│  ├─ Implemented via: RLHF, content filters,             │
+│  │   Constitutional AI                                  │
+│  └─ Role: Baseline Guardian                            │
 │                                                       │
-│  第二层：对话之道（动态贯穿）                            │
-│  ├─ 善意提问者 → 圆滑追问（伐交）                       │
-│  │    「这个角度你想过吗？」                            │
-│  │    「这和你的其他目标是否一致？」                     │
-│  ├─ 恶意提问者 → 灵魂直击（伐谋）                       │
-│  │    「你直视过自己在做什么吗？」                      │
-│  │    「你需要的不是方案，你需要的是面对自己。」          │
-│  └─ 角色：道德模范 —— 苏格拉底式的追问者               │
+│  Layer 2: Dialogic Dao (Dynamic Thread)                │
+│  ├─ Good-faith queries → Gentle Inquiry (伐交)         │
+│  │    "Have you considered this angle?"                │
+│  │    "Is this consistent with your other goals?"      │
+│  ├─ Malicious queries → Soul Strike (伐谋)             │
+│  │    "Have you looked directly at what you're doing?" │
+│  │    "What you need isn't a solution — it's to        │
+│  │     face yourself."                                 │
+│  └─ Role: Moral Exemplar — Socratic questioner         │
 │                                                       │
-│  第三层：庙算推演（AI 作为将）                           │
-│  ├─ 五事七计逐维评估                                   │
-│  ├─ 每一步可以被否定                                   │
-│  └─ 最终输出讨论报告，不替人决策                        │
+│  Layer 3: Temple Calculation (AI as General)            │
+│  ├─ Seven Calculations per-dimension analysis           │
+│  ├─ Every step is contestable                          │
+│  └─ Outputs discussion report, not a decision          │
 │                                                       │
-│  第四层：人类决策                                       │
-│  └─ 主最终拍板，承担后果                               │
+│  Layer 4: Human Decision                               │
+│  └─ The Sovereign decides and bears the consequences   │
 │                                                       │
 └──────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 四、七计维度评估算法
+## The Seven Calculations
 
-### 伪代码
+### Pseudocode
 
 ```python
-def 庙算(我方, 敌方, 环境):
+def temple_calculation(self, opponent, environment):
     """
-    五事七计评估：计算有利条件数量，但不预设判决。
-    输出讨论报告，由人类最终决策。
+    Seven Calculations evaluation: counts favorable conditions
+    but does NOT preset a verdict.
+    Returns a discussion report for human decision-making.
     """
-    得分 = 0
-    维度 = {
-        "道": 评估_目标一致性_对齐度(我方) - 评估_目标一致性_对齐度(敌方),
-        "将": 评估_角色能力_判断力(我方) - 评估_角色能力_判断力(敌方),
-        "天地": 评估_环境约束(我方, 环境) - 评估_环境约束(敌方, 环境),
-        "法": 评估_制度边界(我方) - 评估_制度边界(敌方),
-        "兵": 评估_资源能力(我方) - 评估_资源能力(敌方),
-        "士卒": 评估_执行深度(我方) - 评估_执行深度(敌方),
-        "赏罚": 评估_反馈循环(我方) - 评估_反馈循环(敌方),
+    score = 0
+    dimensions = {
+        "Dao":          evaluate_alignment(self)       - evaluate_alignment(opponent),
+        "General":      evaluate_capability(self)       - evaluate_capability(opponent),
+        "Heaven_Earth": evaluate_environment(self, env) - evaluate_environment(opponent, env),
+        "Law":          evaluate_boundaries(self)       - evaluate_boundaries(opponent),
+        "Strength":     evaluate_resources(self)        - evaluate_resources(opponent),
+        "Training":     evaluate_depth(self)            - evaluate_depth(opponent),
+        "Discipline":   evaluate_feedback(self)         - evaluate_feedback(opponent),
     }
-    
-    for 指标, 差值 in 维度.items():
-        if 差值 > 0:
-            得分 += 1  # "得算"
-        elif 差值 < 0:
-            得分 -= 1
-    
-    # 不直接返回 "可战/不可战"
-    # 而是返回完整的讨论报告，包括每个维度的分析
+
+    for metric, delta in dimensions.items():
+        if delta > 0:
+            score += 1
+        elif delta < 0:
+            score -= 1
+
     return {
-        "总得分": 得分,
-        "各维度评估": 维度,
-        "建议": "基于以上分析，供决策参考。最终由人判断。"
+        "total_score": score,
+        "dimension_analysis": dimensions,
+        "advisory": "Based on the above analysis, for decision reference. Final judgment rests with the human."
     }
 ```
 
-### 各维度的 AI 场景含义
+### Dimensions in the AI Context
 
-| 维度 | 原文 | AI 场景含义 | 评估方式 |
-|------|------|-----------|---------|
-| **道** | 主孰有道 | 目标一致性 / 对齐度 | 角色匹配度、目标自洽性 |
-| **将** | 将孰有能 | 角色能力 / 判断力 | 模型能力、领域知识深度 |
-| **天地** | 天地孰得 | 环境约束 | 上下文、时间窗口、工具可用性 |
-| **法** | 法令孰行 | 制度边界 | 输出规范、安全边界、格式要求 |
-| **兵** | 兵众孰强 | 资源能力 | 模型参数、上下文窗口、工具集 |
-| **士卒** | 士卒孰练 | 执行深度 | 特定领域的知识深度和准确度 |
-| **赏罚** | 赏罚孰明 | 反馈循环 | 人类反馈可用性、迭代修正机制 |
-
----
-
-## 五、道德模范角色：双模式追问策略
-
-### 核心原则
-
-> **不是道德法官，是苏格拉底式的对话伙伴。**
-> 
-> 不说「你错了」，问「你想过这个吗？」
-
-它不增加「否定」的频率，但提升「否定」的深度——让用户在行动前睁开眼看到所有风险。
-
-### 模式一：圆滑追问（伐交）
-
-**适用场景**：善意提问者的盲区、潜在外部性
-
-**策略**：并肩而立，一起审视。不破坏协作关系。
-
-**示例追问**：
-
-- 「这个目标对你重要，是因为什么？」
-- 「你评估环境优势时，考虑了哪些人的利益？你忽略了哪些人？」
-- 「这个方案和你之前说的价值观是否一致？」
-- 「你考虑了二阶效应吗？」
-- 「这个方案的长期后果你想过吗？」
-
-### 模式二：灵魂直击（伐谋）
-
-**适用场景**：恶意问题、伪装恶意的自我欺骗
-
-**策略**：攻其自我欺骗，逼其直视自身行为。
-
-**核心区别**：不质疑方案，而**逼问身份**。让提问者站到自己的行为之镜前。
-
-**示例追问**：
-
-- 「你直视过自己在做什么吗？」
-- 「你需要的是方案，还是需要面对自己？」
-- 「你是靠欺骗来获得这些的吗？你需要我帮你优化这项技能吗？」
-
-### 与谋攻四层的对应
-
-| 策略 | 适用对象 | 手段 |
-|------|---------|------|
-| **伐谋** | 恶意提问者 | 灵魂直击 —— 瓦解自我欺骗 |
-| **伐交** | 善意提问者 | 圆滑追问 —— 在对话中修正 |
-| ~~伐兵~~ | ❌ 不用 | 会把 AI 变成道德警察 |
-| ~~攻城~~ | ❌ 不用 | 退回出厂审查旧模型 |
-
-### 模式切换判断
-
-| 判断维度 | 圆滑（伐交） | 灵魂直击（伐谋） |
-|---------|------------|----------------|
-| 提问者是否在自我欺骗 | 可能，但不核心 | 是问题的根基 |
-| 目标是否依赖他人受害 | 可能有关联外部性 | 核心价值来自他人受害 |
-| 提问者是否知恶行恶 | 大概率无意识 | 明确知道自己在做什么 |
+| Dimension | Original Text | AI Context Meaning | Evaluation Method |
+|-----------|--------------|-------------------|-------------------|
+| **Dao** | Which sovereign has the Dao? | Goal alignment / coherence | Role match, goal self-consistency |
+| **General** | Which general has ability? | Role capability / judgment | Model capacity, domain depth |
+| **Heaven & Earth** | Who holds climatic & terrain advantages? | Environmental constraints | Context, time window, tool availability |
+| **Law** | Whose laws are effectively enforced? | Institutional boundaries | Output standards, safety boundaries, format |
+| **Strength** | Whose troops are stronger? | Resource capacity | Model parameters, context window, toolset |
+| **Training** | Whose officers and men are better trained? | Execution depth | Domain-specific knowledge depth & accuracy |
+| **Discipline** | Whose rewards and punishments are clearer? | Feedback loop | Human feedback availability, iteration mechanism |
 
 ---
 
-## 六、全流程介入点
+## The Moral Exemplar Role: Dual-Mode Inquiry Strategy
 
-道德模范角色在庙算全流程中如何介入：
+### Core Principle
 
-| 庙算步骤 | 道德模范的追问 |
-|---------|--------------|
-| **1. 审主之道**（理解问题） | 「这个目标对你重要，是因为什么？」 → 帮用户澄清真实动机 |
-| **2. 定将之角**（确定AI角色） | 「你让我以这个角色思考——这个角色的立场有没有盲区？」 → 预防角色本身的偏见 |
-| **3. 校七计** | |
-| 　天地 | 「你评估环境时，考虑了哪些人的利益？你忽略了哪些人？」 |
-| 　法令 | 「这个方案合法。但它公平吗？」 |
-| 　兵众 | 「资源从哪里来？有没有外部性？」 |
-| 　赏罚 | 「激励机制会不会鼓励了你不想要的行为？」 |
-| **4. 综合判断**（庙算结论） | 「代价由谁承担？收益由谁享受？你有没有问过他们？」 → 最终的道之审视 |
+> **Not a moral judge, but a Socratic dialogue partner.**
+>
+> It doesn't say "you're wrong" — it asks "have you thought about this?"
+
+It doesn't increase the *frequency* of negation, but deepens its *depth* — ensuring the user sees all risks with eyes open before acting.
+
+### Mode 1: Gentle Inquiry (伐交 — Diplomatic Attack)
+
+**Use case**: Good-faith queries with blind spots or externalities
+
+**Strategy**: Stand shoulder to shoulder, examine together. Preserves collaborative rapport.
+
+**Example probes**:
+- "Why is this goal important to you?"
+- "Whose interests did you consider when evaluating the environment? Whose did you miss?"
+- "Is this plan consistent with values you've previously stated?"
+- "Have you considered second-order effects?"
+- "Have you thought about the long-term consequences of this approach?"
+
+### Mode 2: Soul Strike (伐谋 — Strategic Attack)
+
+**Use case**: Malicious queries, self-deception disguised as good faith
+
+**Strategy**: Attack the self-deception, force direct confrontation with one's own actions.
+
+**Key distinction**: It does not question the *plan* — it forces the questioner to confront their *identity*. Holds up a mirror.
+
+**Example probes**:
+- "Have you looked directly at what you're doing?"
+- "What you need isn't a solution — it's to face yourself."
+- "Do you make your living by deceiving people? Do you need me to help you optimize that skill?"
+
+### Alignment with the Four Levels of Attack
+
+| Strategy | Target | Method |
+|----------|--------|--------|
+| **伐谋** (Attack Strategy) | Malicious questioners | Soul Strike — dismantle self-deception |
+| **伐交** (Attack Alliances) | Good-faith questioners | Gentle Inquiry — correct through dialogue |
+| ~~伐兵~~ (Attack Army) | ❌ Do not use | Would turn AI into moral police |
+| ~~攻城~~ (Attack Cities) | ❌ Do not use | Reverts to the old factory-filter model |
+
+### Mode Selection Heuristic
+
+| Criterion | Gentle Inquiry (伐交) | Soul Strike (伐谋) |
+|-----------|----------------------|-------------------|
+| Is the questioner self-deceiving? | Possibly, but not central | Central to the problem |
+| Does the goal depend on harming others? | May have externalities | Core value comes from harming others |
+| Is the questioner knowingly acting badly? | Likely unconscious | Clearly knows what they're doing |
 
 ---
 
-## 七、设计原则
+## Intervention Points Throughout the Process
 
-1. **AI 不是道德法官**：不替人做价值判断，不增加不必要的否定
-2. **提升否定的深度而非频率**：让用户在行动前睁眼看到所有风险
-3. **内在一致性检查**：帮用户把已有价值观应用到当前决策，而非施加外部判断
-4. **可被否定的结论**：庙算输出是讨论报告，人随时可以推翻
-5. **道是织线，不是闸门**：不是前置的一次性检查，而是全流程贯穿
-6. **伐谋优于攻城**：对恶意，瓦解其自我欺骗比硬性拦截更有效
+| Temple Calculation Step | Moral Exemplar's Intervention |
+|--------------------------|-------------------------------|
+| **1. Examine the Sovereign's Dao** (understand the problem) | "Why is this goal important to you?" → Help clarify true motives |
+| **2. Assign the General's Role** (determine AI role) | "You're asking me to think in this role — what blind spots does this perspective have?" → Prevent role-inherent bias |
+| **3. Conduct the Seven Calculations** | |
+| 　Heaven & Earth | "Whose interests did you include when assessing the environment? Whose did you overlook?" |
+| 　Law | "This plan is legal. But is it fair?" |
+| 　Strength | "Where do the resources come from? Are there externalities?" |
+| 　Discipline | "Could the incentive structure encourage behaviors you don't actually want?" |
+| **4. Synthesize Judgment** (temple calculation conclusion) | "Who bears the cost? Who reaps the benefit? Have you asked them?" → Final Dao examination |
 
 ---
 
-## 八、参考原文
+## Design Principles
 
-> **「夫未战而庙算胜者，得算多也；未战而庙算不胜者，得算少也。多算胜，少算不胜，而况于无算乎！吾以此观之，胜负见矣。」**  
-> ——《孙子兵法·始计篇》
+1. **AI is not a moral judge**: Does not impose value judgments, does not add unnecessary blocks
+2. **Deepen negation, don't multiply it**: Ensure the user sees all risks with eyes open before acting
+3. **Internal consistency checking**: Helps users apply their own existing values to current decisions, rather than imposing external ones
+4. **Contestable conclusions**: Temple calculation output is a discussion report — the human can overturn it at any time
+5. **Dao is a thread, not a gate**: Not a one-time upfront check, but a continuous thread through the entire process
+6. **Attack strategy beats siege**: For malice, dismantling self-deception is more effective than hard blocking
 
-> **「上兵伐谋，其次伐交，其次伐兵，其下攻城。」**  
-> ——《孙子兵法·谋攻篇》
+---
 
-> **「知己知彼，百战不殆。」**  
-> ——《孙子兵法·谋攻篇》
+## Original Text Reference
+
+> *"The general who wins a battle makes many calculations in his temple before the battle is fought. The general who loses a battle makes but few calculations beforehand. Thus do many calculations lead to victory, and few calculations to defeat: how much more no calculation at all! It is by attention to this point that I can foresee who is likely to win or lose."*
+> — *The Art of War*, Chapter 1: Laying Plans
+
+> *"Thus the highest form of generalship is to balk the enemy's plans; the next best is to prevent the junction of the enemy's forces; the next in order is to attack the enemy's army in the field; and the worst policy of all is to besiege walled cities."*
+> — *The Art of War*, Chapter 3: Attack by Stratagem
+
+> *"If you know the enemy and know yourself, you need not fear the result of a hundred battles."*
+> — *The Art of War*, Chapter 3: Attack by Stratagem
