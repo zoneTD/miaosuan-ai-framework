@@ -1,21 +1,65 @@
-MIT License
+# 庙算 AI 决策框架 许可协议
 
-Copyright (c) 2026 zoneTD
+版权所有 © 2026 zoneTD
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## 非商用许可
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+特此免费授予任何获得本作品副本的个人，在非商业目的下使用、复制、修改、合并、发布、分发本作品的权利，不受限制。前述权利包括但不限于：
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+- 个人学习与研究
+- 教育用途（课堂教学、学术论文引用）
+- 非营利组织内部使用
+- 非商业性质的公开分享与传播
+
+使用本作品时须保留上述版权声明和本许可声明。
+
+## 商业用途
+
+**商业用途需获得作者明确授权。**
+
+「商业用途」包括但不限于：
+
+- 将本框架或其衍生作品用于商业产品或服务
+- 将本框架集成到以营利为目的的软件或系统中
+- 以本框架为基础提供付费咨询、培训或 SaaS（软件即服务）服务
+- 在任何直接或间接产生收入的场景中使用本框架
+
+如需商用授权，请联系：**swei0421@gmail.com**
+
+## 免责声明
+
+本作品按「原样」提供，不作任何明示或默示的保证，包括但不限于对适销性、特定用途适用性和非侵权的保证。在任何情况下，作者或版权持有人均不对因使用本作品而产生的任何索赔、损害或其他责任负责。
+
+---
+
+# Temple Calculation AI Decision Framework License
+
+Copyright © 2026 zoneTD
+
+## Non-Commercial License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this work, to use, copy, modify, merge, publish, and distribute the work for **non-commercial purposes** without restriction. The above rights include but are not limited to:
+
+- Personal study and research
+- Educational use (classroom teaching, academic paper citation)
+- Internal use by non-profit organizations
+- Non-commercial public sharing and distribution
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the work.
+
+## Commercial Use
+
+**Commercial use requires explicit authorization from the author.**
+
+"Commercial use" includes but is not limited to:
+
+- Using this framework or its derivatives in commercial products or services
+- Integrating this framework into for-profit software or systems
+- Providing paid consulting, training, or SaaS services based on this framework
+- Using this framework in any context that directly or indirectly generates revenue
+
+For commercial licensing, please contact: **swei0421@gmail.com**
+
+## Disclaimer
+
+THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE WORK OR THE USE OR OTHER DEALINGS IN THE WORK.
